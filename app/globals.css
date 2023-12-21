@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,10 +19,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color:  rgba(10, 38, 64, 1);
+}
+
+.hero-circle{
+  background-color: rgba(28, 61, 91, 1);
+  height: 700px;
+  width: 700px;
 }
