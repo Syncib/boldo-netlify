@@ -27,3 +27,8 @@ body {
   height: 700px;
   width: 700px;
 }
+
+.defaultcolor{
+  color: rgb(var(--foreground-rgb));
+  background-color:  rgba(10, 38, 64, 1);
+}

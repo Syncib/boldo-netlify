@@ -31,7 +31,7 @@ const Intro = () => {
           <Image className="backdrop-blur-md" src={herograph} alt="hero-svg" />
         </div>
       </div>
-      <Image className="mr-auto ml-auto mt-9" src={logowall} alt="Logo Wall" />
+      <Image className="mr-auto ml-auto mt-9" src={logowall} alt="logo-wall" />
     </div>
   );
 };

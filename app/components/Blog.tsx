@@ -14,7 +14,7 @@ const Blog = () => {
           <br /> crowdfunding iteration.
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-stretch gap-4">
         <div>
           <Image src={bloggreen} alt="bloggreen" />
           <div className="flex gap-3 mt-5 items-center">
