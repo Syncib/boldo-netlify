@@ -1,12 +1,14 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
+import logo from "../../public/Logo.png";
 const NavBar = () => {
   const [collapseState, setCollapseState] = useState(true);
   return (
     <div>
       <nav className="flex justify-between items-center px-5 lg:px-20 pt-20">
         <div>
-          <img src="Logo.png" alt="Logo" />
+          <Image src={logo} alt="Logo" />
         </div>
         <div className="hidden md:block">
           <ul className="flex gap-6 text-white items-center">
@@ -41,7 +43,10 @@ const NavBar = () => {
           ></path>
         </svg>
       </nav>
-      <div className={collapseState ? "hidden" : "block"} id="mycollapsable">
+      <div
+        className={"md:hidden " + (collapseState ? "hidden" : "block")}
+        id="mycollapsable"
+      >
         <ul className="flex flex-col gap-6 text-white items-center justify-center mt-12">
           <li>Product</li>
           <li>Services</li>

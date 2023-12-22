@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import herograph from "../../public/hero graphics.svg";
+import logowall from "../../public/Logo Wall.png";
 const Intro = () => {
   return (
     <div>
@@ -7,7 +10,7 @@ const Intro = () => {
           <h1 className="font-headfont text-white text-5xl">
             Save time by building
             <br />
-            fast with Boldo Template{" "}
+            fast with Boldo Template
           </h1>
           <p className="text-white font-navfont mt-2">
             Funding handshake buyer business-to-business metrics iPad
@@ -25,18 +28,10 @@ const Intro = () => {
           </div>
         </div>
         <div className="mt-6 lg:mt-0">
-          <img
-            className="backdrop-blur-md"
-            src="hero graphics.svg"
-            alt="hero-svg"
-          />
+          <Image className="backdrop-blur-md" src={herograph} alt="hero-svg" />
         </div>
       </div>
-      <img
-        className="mr-auto ml-auto mt-9"
-        src="Logo Wall.png"
-        alt="Logo Wall"
-      />
+      <Image className="mr-auto ml-auto mt-9" src={logowall} alt="Logo Wall" />
     </div>
   );
 };

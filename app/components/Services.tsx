@@ -1,10 +1,23 @@
 import React from "react";
+import Image from "next/image";
+import greenman from "../../public/greenman.png";
+import coolman from "../../public/coolman.png";
+import buildman from "../../public/buildman.png";
+import arrowright from "../../public/arrow-right.png";
+import mancall from "../../public/mancall.png";
+import girlcall from "../../public/girlcall.png";
+import juneincome from "../../public/juneincome.png";
+import checkcir from "../../public/checkcir.png";
+import feather from "../../public/feather.png";
+import eye from "../../public/eye.png";
+import sun from "../../public/sun.png";
+import piechart from "../../public/piechart.png";
 
 const Services = () => {
   return (
     <div className="bg-white h-fit py-10 px-5 md:px-20">
       <div className="text-center py-12">
-        <h1 className="font-navfont text-gray-500">Our Services</h1>
+        <h1 className="font-navfont text-gray-500 text-xl">Our Services</h1>
         <h2 className="font-headfont text-5xl hidden lg:block">
           Handshake infographic mass market
           <br /> crowdfunding iteration.
@@ -12,7 +25,7 @@ const Services = () => {
       </div>
       <div className="flex flex-col lg:flex-row items-center gap-2 justify-evenly">
         <div>
-          <img src="greenman.png" alt="greenman" />
+          <Image src={greenman} alt="greenman" />
           <div className="font-navfont">
             <h2 className="py-5 text-xl">Cool feature title</h2>
             <p className="text-gray-400">
@@ -23,9 +36,9 @@ const Services = () => {
             <p className="py-4">
               <span className="font-bold border-b border-black gap-3 py-2">
                 Explore page
-                <img
+                <Image
                   className="inline-block"
-                  src="arrow-right.png"
+                  src={arrowright}
                   alt="arrow-right"
                 />
               </span>
@@ -33,7 +46,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <img src="coolman.png" alt="coolman" />
+          <Image src={coolman} alt="coolman" />
           <div className="font-navfont">
             <h2 className="py-5 text-xl">Even cooler feature</h2>
             <p className="text-gray-400">
@@ -44,9 +57,9 @@ const Services = () => {
             <p className="py-4">
               <span className="font-bold border-b border-black gap-3 py-2">
                 Explore page
-                <img
+                <Image
                   className="inline-block"
-                  src="arrow-right.png"
+                  src={arrowright}
                   alt="arrow-right"
                 />
               </span>
@@ -54,7 +67,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <img src="buildman.png" alt="buildman" />
+          <Image src={buildman} alt="buildman" />
           <div className="font-navfont">
             <h2 className="py-5 text-xl">Cool feature title</h2>
             <p className="text-gray-400">
@@ -65,9 +78,9 @@ const Services = () => {
             <p className="py-4">
               <span className="font-bold border-b border-black gap-3 py-2">
                 Explore page
-                <img
+                <Image
                   className="inline-block"
-                  src="arrow-right.png"
+                  src={arrowright}
                   alt="arrow-right"
                 />
               </span>
@@ -77,10 +90,10 @@ const Services = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-between items-center py-12 lg:py-28 md:px-20">
         <div className="relative">
-          <img className=" min-w-60" src="mancall.png" alt="mancall" />
-          <img
+          <Image className=" min-w-60" src={mancall} alt="mancall" />
+          <Image
             className="lg:absolute z-10 right-8 top-56"
-            src="juneincome.png"
+            src={juneincome}
             alt="juneincome"
           />
         </div>
@@ -94,19 +107,19 @@ const Services = () => {
           </h1>
           <div className="flex flex-col gap-5 py-5">
             <p className="flex gap-5 items-center">
-              <img className="min-w-6 w-7" src="checkcir.png" alt="checkcir" />
+              <Image className="min-w-6 w-6" src={checkcir} alt="checkcir" />
               <span className="font-navfont">
                 We connect our customers with the best.
               </span>
             </p>
             <p className="flex gap-5 items-center">
-              <img className="min-w-6 w-7" src="checkcir.png" alt="checkcir" />
+              <Image className="min-w-6 w-6" src={checkcir} alt="checkcir" />
               <span className="font-navfont">
                 Advisor success customer launch party.
               </span>
             </p>
             <p className="flex gap-5 items-center">
-              <img className="min-w-6 w-7" src="checkcir.png" alt="checkcir" />
+              <Image className="min-w-6 w-6" src={checkcir} alt="checkcir" />
               <span className="font-navfont">
                 Business-to-consumer long tail.
               </span>
@@ -130,19 +143,19 @@ const Services = () => {
           </h1>
           <div className="flex flex-col gap-5 py-5">
             <p className="flex gap-5 items-center p-5 bg-blue-950 text-white rounded shadow-lg">
-              <img className="min-w-6 w-7" src="feather.png" alt="checkcir" />
+              <Image className="min-w-6 w-7" src={feather} alt="checkcir" />
               <span className="font-navfont">
                 We connect our customers with the best.
               </span>
             </p>
             <p className="flex gap-5 items-center p-5 rounded shadow-lg">
-              <img className="min-w-6 w-7" src="eye.png" alt="checkcir" />
+              <Image className="min-w-6 w-7" src={eye} alt="checkcir" />
               <span className="font-navfont">
                 Advisor success customer launch party.
               </span>
             </p>
             <p className="flex gap-5 items-center p-5 rounded shadow-lg">
-              <img className="min-w-6 w-7" src="sun.png" alt="checkcir" />
+              <Image className="min-w-6 w-7" src={sun} alt="checkcir" />
               <span className="font-navfont">
                 Business-to-consumer long tail.
               </span>
@@ -150,10 +163,10 @@ const Services = () => {
           </div>
         </div>
         <div className="relative">
-          <img className=" min-w-60" src="girlcall.png" alt="girlcall" />
-          <img
+          <Image className=" min-w-60" src={girlcall} alt="girlcall" />
+          <Image
             className="lg:absolute z-10 left-8 top-56"
-            src="piechart.png"
+            src={piechart}
             alt="piechart"
           />
         </div>

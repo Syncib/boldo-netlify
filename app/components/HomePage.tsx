@@ -1,7 +1,9 @@
 import React from "react";
 import HeroSection from "./HeroSection";
 import Services from "./Services";
-import { PeopleSays } from "./PeopleSays";
+import ConnectCustomers from "./ConnectCustomers";
+import PeopleSays from "./PeopleSays";
+import Blog from "./Blog";
 
 const HomePage = () => {
   return (
@@ -9,6 +11,8 @@ const HomePage = () => {
       <HeroSection />
       <Services />
       <PeopleSays />
+      <ConnectCustomers />
+      <Blog />
     </div>
   );
 };
