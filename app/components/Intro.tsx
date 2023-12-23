@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import herograph from "../../public/hero graphics.svg";
-import logowall from "../../public/Logo Wall.png";
+import logowall from "../../public/logowall.png";
 const Intro = () => {
   return (
     <div>
@@ -31,7 +31,7 @@ const Intro = () => {
           <Image className="backdrop-blur-md" src={herograph} alt="hero-svg" />
         </div>
       </div>
-      <Image className="mr-auto ml-auto mt-9" src={logowall} alt="logo-wall" />
+      <Image className="w-screen" src={logowall} alt="mylogowall" />
     </div>
   );
 };
