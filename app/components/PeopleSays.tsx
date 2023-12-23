@@ -7,7 +7,7 @@ import girlflow from "../../public/girlflow.png";
 const PeopleSays = () => {
   return (
     <div className="h-fit py-20 px-5 md:px-20 ">
-      <div className="flex justify-between items-end">
+      <div className="flex flex-col items-center md:flex-row md:justify-between md:items-end">
         <h1 className="font-headfont text-white text-5xl leading-snug">
           An enterprise template to ramp
           <br />
@@ -24,7 +24,7 @@ const PeopleSays = () => {
       </div>
       <div className="flex text-center mt-20 gap-2 justify-evenly flex-col items-center lg:flex-row">
         <div className="bg-white w-fit h-fit px-8 py-14 rounded-xl">
-          <h1 className="font-navfont text-3xl text-nowrap">
+          <h1 className="font-navfont text-3xl text-pretty md:text-nowrap">
             “Buyer buzz partner
             <br />
             network disruptive non-
@@ -42,7 +42,7 @@ const PeopleSays = () => {
           </div>
         </div>
         <div className="bg-white w-fit h-fit px-8 py-14 rounded-xl">
-          <h1 className="font-navfont text-3xl text-nowrap">
+          <h1 className="font-navfont text-3xl text-pretty md:text-nowrap">
             “Learning curve
             <br />
             infrastructure value
@@ -61,7 +61,7 @@ const PeopleSays = () => {
           </div>
         </div>
         <div className="bg-white w-fit h-fit px-8 py-14 rounded-xl">
-          <h1 className="font-navfont text-3xl text-nowrap">
+          <h1 className="font-navfont text-3xl text-pretty md:text-nowrap">
             “Release facebook
             <br />
             responsive web design
