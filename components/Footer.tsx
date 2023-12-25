@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import footerlogo from "../../public/FooterLogo.png";
+import footerlogo from "../public/FooterLogo.png";
 const Footer = () => {
   return (
     <div className="h-fit py-10 px-5 md:px-20 bg-white">

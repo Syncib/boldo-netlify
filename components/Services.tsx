@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import greenman from "../../public/greenman.png";
-import coolman from "../../public/coolman.png";
-import buildman from "../../public/buildman.png";
-import arrowright from "../../public/arrow-right.png";
-import mancall from "../../public/mancall.png";
-import girlcall from "../../public/girlcall.png";
-import juneincome from "../../public/juneincome.png";
-import checkcir from "../../public/checkcir.png";
-import feather from "../../public/feather.png";
-import eye from "../../public/eye.png";
-import sun from "../../public/sun.png";
-import piechart from "../../public/piechart.png";
+import greenman from "../public/greenman.png";
+import coolman from "../public/coolman.png";
+import buildman from "../public/buildman.png";
+import arrowright from "../public/arrow-right.png";
+import mancall from "../public/mancall.png";
+import girlcall from "../public/girlcall.png";
+import juneincome from "../public/juneincome.png";
+import checkcir from "../public/checkcir.png";
+import feather from "../public/feather.png";
+import eye from "../public/eye.png";
+import sun from "../public/sun.png";
+import piechart from "../public/piechart.png";
 
 const Services = () => {
   return (

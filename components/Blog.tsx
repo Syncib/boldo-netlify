@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import bloggreen from "../../public/bloggreen.png";
-import chandler from "../../public/chadler.png";
-import bloggirl from "../../public/bloggirl.png";
-import blogpaper from "../../public/blogpaper.png";
+import bloggreen from "../public/bloggreen.png";
+import chandler from "../public/chadler.png";
+import bloggirl from "../public/bloggirl.png";
+import blogpaper from "../public/blogpaper.png";
 const Blog = () => {
   return (
     <div className="bg-white h-fit py-10 px-5 md:px-20">
@@ -14,7 +14,7 @@ const Blog = () => {
           <br /> crowdfunding iteration.
         </h2>
       </div>
-      <div className="flex flex-col lg:flex-row justify-evenly items-center lg:items-stretch gap-4">
+      <div className="grid justify-items-center lg:grid-cols-3 gap-6">
         <div>
           <Image src={bloggreen} alt="bloggreen" />
           <div className="flex gap-3 mt-5 items-center">

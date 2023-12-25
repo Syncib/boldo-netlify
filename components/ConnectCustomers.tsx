@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import resturant from "../../public/resturant.png";
-import downarrow from "../../public/downarrow.png";
+import resturant from "../public/resturant.png";
+import downarrow from "../public/downarrow.png";
 const ConnectCustomers = () => {
   return (
     <div className="bg-white py-10 px-5 md:px-20">

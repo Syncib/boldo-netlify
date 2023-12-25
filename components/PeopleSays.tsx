@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import btnleft from "../../public/btn-arrow-left.png";
-import btnright from "../../public/btn-arrow-right.png";
-import girlflow from "../../public/girlflow.png";
+import btnleft from "../public/btn-arrow-left.png";
+import btnright from "../public/btn-arrow-right.png";
+import girlflow from "../public/girlflow.png";
 
 const PeopleSays = () => {
   return (

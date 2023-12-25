@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import herograph from "../../public/hero graphics.svg";
-import logowall from "../../public/logowall.png";
+import herograph from "../public/hero graphics.svg";
+import logowall from "../public/logowall.png";
 const Intro = () => {
   return (
     <div>

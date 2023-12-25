@@ -1,22 +1,29 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import logo from "../../public/Logo.png";
-const NavBar = () => {
+import blacklogo from "../public/BlackLogo.png";
+import Link from "next/link";
+const NavbarBlack = () => {
   const [collapseState, setCollapseState] = useState(true);
   return (
     <div>
       <nav className="flex justify-between items-center px-5 lg:px-20 pt-20">
         <div>
-          <Image src={logo} alt="Logo" />
+          <Image src={blacklogo} alt="Logo" />
         </div>
         <div className="hidden md:block">
-          <ul className="flex gap-6 text-white items-center">
-            <li>Product</li>
-            <li>Services</li>
-            <li>About</li>
+          <ul className="flex gap-6 text-black items-center">
             <li>
-              <button className="text-black bg-white rounded-full px-8 py-2">
+              <Link href="/">Product</Link>
+            </li>
+            <li>
+              <Link href="/blog">Services</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <button className="text-black bg-transparent rounded-full px-8 py-2 border-2 border-black">
                 Log In
               </button>
             </li>
@@ -30,15 +37,15 @@ const NavBar = () => {
           className="w-12 md:hidden cursor-pointer"
           data-slot="icon"
           fill="none"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
           aria-hidden="true"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           ></path>
         </svg>
@@ -47,12 +54,18 @@ const NavBar = () => {
         className={"md:hidden " + (collapseState ? "hidden" : "block")}
         id="mycollapsable"
       >
-        <ul className="flex flex-col gap-6 text-white items-center justify-center mt-12">
-          <li>Product</li>
-          <li>Services</li>
-          <li>About</li>
+        <ul className="flex flex-col gap-6 text-black items-center justify-center mt-12">
           <li>
-            <button className="text-black bg-white rounded-full px-8 py-2">
+            <Link href="/">Product</Link>
+          </li>
+          <li>
+            <Link href="/blog">Services</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <button className="text-black bg-transparent rounded-full px-8 py-2 border-2 border-black">
               Log In
             </button>
           </li>
@@ -62,4 +75,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavbarBlack;
